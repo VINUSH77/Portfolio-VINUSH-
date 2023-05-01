@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VINUSH - Personal Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="style.css">
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+
+        <!--
+      - #SIDEBAR
+    -->
+
+        <aside class="sidebar" data-sidebar>
+
+            <div class="sidebar-info">
+
+                <figure class="avatar-box">
+                    <img src="1682926350147.jpg" alt="Richard hanrick" width="80">
+                </figure>
+
+                <div class="info-content">
+                    <h1 class="name" title="VINUSH S POOJARY"> <b>VINUSH</b> </h1>
+
+                    <p class="title"><b><i>Web Developer</i></b></p>
+                </div>
+
+                <button class="info_more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+
+            </div>
+
+            <div class="sidebar-info_more">
+
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+
+                            <a href="mailto:vinushpoojary409@gmail.com"
+                                class="contact-link">vinushpoojary409@gmail.com</a>
+                        </div>
+
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+
+                            <a href="tel:9483306646" class="contact-link">+91 9483306646</a>
+                        </div>
+
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Birthday</p>
+
+                            <time datetime="2000-05-11">May 11, 2000</time>
+                        </div>
+
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+
+                            <address>Hebri, karnataka, INDIA</address>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+        </aside>
+
+        <!--
+      - #main-content
+    -->
+
+        <div class="main-content">
+
+            <!--
+        - #NAVBAR
+      -->
+
+            <nav class="navbar">
+
+                <ul class="navbar-list">
+
+                    <li class="navbar-item active">
+                        <button class="navbar-link" data-nav-link><b><a  href="index.html"> 🌟</a>About</b></button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="navbar-link active" data-nav-link ><a href="resume.html">🌟</a><b>Resume</b></button>
+                        <!-- 
+              <a class="navbar-link" data-nav-link  href="about.html">Resume</a>
+             -->
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="navbar-link " data-nav-link><a  href="contact.html"> 🌟</a><b>Contact</b></button>
+                    </li>
+
+                </ul>
+
+            </nav>
+            <article class="about  active" data-page="about">
+
+                <header>
+                    <h2 class="h2 article-title" style="color: rgb(155, 216, 153);"><b>Resume...</b></h2>
+                </header>
+
+                <section class="about-text">
+                    <pre>
+A creative and detailed individual has the capacity to develop an effective and efficient solution 
+with no tolerance for errors and possess a positive attitude towards individual goals and an 
+organizational goal.
+          </pre>
+
+                    <pre>
+An Electronics and Communication Engineering student with basic knowledge of programming, interested in
+learning emerging technologies and eager to work with engineers to gain industry experience, looking for
+both Software and Hardware engineering job that would help improve professional and domain skills and 
+dedicate the skills acquired for the overall benefit of the organization. 
+          </pre>
+                </section>
+
+                <div class="sidebar-info_more">
+
+                    <div class="separator"></div>
+
+                    <ul class="contacts-list">
+
+                        <li class="contact-item">
+
+                            <div class="icon-box">
+                                <ion-icon name="book-outline"></ion-icon>
+                            </div>
+
+                            <div class="contact-info">
+                                <h3 class="contact-title" style="font-size: larger;"><b>Education</b></h3>
+                            </div>
+                            
+                        </li>
+                    </ul>
+                    <pre style="font-size: 120%" ><b style="color: gray;">
+        B.E - Electronics & Communication Engineering                            2018-Present
+        Mangalore Institute of Technology & Engineering                          CGPA: 8.65
+        <br>
+        Senior Secondary (12th)                                                  2017-2018
+        SR PU College, Hebri                                                     Percentage: 87.5%
+        <br>
+        Secondary School (SSLC)                                                  2015-2016
+        MNDSM High School, Mudradi                                               Percentage: 90.24% 
+    </b></pre>
+</div>
+<div class="separator"></div>
+<h4 style="padding-left: 38%;"><a href="https://drive.google.com/file/d/14rIKPRzMNmgONK7SMfMbd7gc2SbfNazu/view?usp=sharing" style="color: rgb(76, 228, 134);" >Download My Resume</a></h4>
+    
+                <ul class="social-list" style="align-items: center;">
+        
+                  <li class="social-item">
+                    <a href="https://github.com/VINUSH77" target="_blank" class="social-link">
+                      <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                  </li>
+        
+                  <li class="social-item">
+                    <a href="https://www.linkedin.com/in/vinush-a105b7218/" target="_blank" class="social-link">
+                      <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                  </li>
+        
+                  <li class="social-item">
+                    <a href="https://www.instagram.com/_ig__legend__/" target="_blank" class="social-link">
+                      <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                  </li>
+                  <li class="social-item">
+                    <a href="https://www.instagram.com/_ig__legend__/" target="_blank" class="social-link">
+                      <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                </li><br>
+                <br>
+            </ul>
+        
+              </div>
+        
+    
+    
+          </article>
+    
+                
+        </div>   
+    
+
+
+      </article>
+
+
+
+
+   
+    </main>
+
+
+
+   
+
+
+    <!--
+    - custom js link
+  -->
+    <script src="script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
